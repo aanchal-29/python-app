@@ -50,7 +50,7 @@ def index():
         cur.execute (sql)
         mysql.connection.commit()
         cur.close()
-        return 'success'
+        return 'success' 
     return render_template('index.html')
 
     
